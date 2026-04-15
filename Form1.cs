@@ -28,10 +28,8 @@ namespace نظام_مكتبة
         public Form1()
         {
 
-
             con = new SqlConnection(cs);
             ds = new DataSet();
-
 
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
